@@ -1,0 +1,540 @@
+#owl-demo .owl-item div{
+  padding:5px;
+}
+#owl-demo .owl-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  
+  }
+
+
+.pd-50 {
+    padding: 50px 0;
+}
+.contact-ep img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-ep p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+.title_w2commerce {
+    position: relative;
+}
+.title_w2commerce h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3.5px;
+}
+
+.title_w2commerce:before {
+    content: '';
+    background: url("w2commerceEP/next.png") no-repeat;
+    position: absolute;
+    top: -47px;
+    left: 50%;
+    width: 100px;
+    background-size: contain;
+    height: 126px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.all-in-one img {
+    width: 100%;
+    padding: 10px;
+}
+.all-in-one img {
+    width: 100%;
+    padding: 10px;
+}
+
+.conten_w2 p {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.title_w2_general {
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.title_w2_general:before {
+    content: '';
+    background: url("w2commerceEP/Screenshot_1.png") no-repeat;
+    position: absolute;
+    bottom: -47px;
+    left: 50%;
+    width: 43px;
+    background-size: contain;
+    height: 40px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.title_w2_general h3 {
+    color: #003466;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+}
+
+.title_w2_general h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.text_one p {
+    letter-spacing: 3px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.text_three {
+    text-align: center;
+}
+
+.title_three span {
+    color: #d16c3a;
+    font-size: 21px;
+    font-weight: 700;
+    position: relative;
+}
+.text_two {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.title_three {
+    margin-bottom: 10px;
+}
+.text_three span:before {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    content: '';
+    background: #f4c507c7;
+    left: 50%;
+    bottom: 0;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    
+}
+.title_three span strong {
+    position: relative;
+}
+.text_two:before{
+    content: '';
+    background: url("w2commerceEP/balloon.png") no-repeat;
+    position: absolute;
+    bottom: -27px;
+    left: 50%;
+    width: 50%;
+    background-size: contain;
+    height: 158px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.security_w2 img {
+    width: 100%;
+}
+.row.all_in_one h2 {
+    font-size: 14px;
+    color: #034a8c;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.row.all_in_one p {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding: 10px 15px;
+}
+.conten_function {
+    background: #fafaeb;
+    padding: 15px;
+    position: relative;
+    margin: 15px 0;
+}
+
+.conten_function h2 {
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    color: #d16c3a;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.conten_function ul {
+    padding-left: 30px;
+    margin-bottom: 2px;
+}
+
+.conten_function ul a {
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.slogan {
+    text-align: center;
+}
+
+.slogan p {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.title_security_detail {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.title_security_detail span {
+    padding: 10px 60px;
+    border-top: 2px solid #1264ac;
+    border-bottom: 2px solid #1264ac;
+    color: #1264ac;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.img {
+    float: left;
+    width: 28%;
+    text-align: center;
+    /* height: 58px; */
+    line-height: 44px;
+}
+
+.conten_security_detail .info {
+    border-bottom: 1px solid #c3c3c3;
+    padding: 20px 0;
+    /* margin-bottom: 20px; */
+}
+
+.conten_security_detail {
+}
+
+.describe p {
+    margin-bottom: 0;
+}
+
+.describe {
+    color: #757575;
+    font-size: 13px;
+}
+
+.title_comm h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+}
+.title_comm{
+    position: relative;
+}
+.conten_comm.one .title_comm:before {
+    content: '';
+    background: url("w2commerceEP/balloon1.png") no-repeat;
+    position: absolute;
+    bottom: -43px;
+    left: 50%;
+    width: 95%;
+    background-size: contain;
+    height: 71px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.conten_comm.two .title_comm:before {
+    content: '';
+    background: url("w2commerceEP/balloon2.png") no-repeat;
+    position: absolute;
+    bottom: -43px;
+    left: 50%;
+    width: 95%;
+    background-size: contain;
+    height: 71px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.conten_comm.two img, .conten_comm.one img {
+    margin-top: 35px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.detai_value5 {
+    background: #fafaeb;
+    padding: 15px 40px;
+}
+
+.detai_value5 ul {
+    margin-bottom: 3px;
+}
+
+.detai_value5 ul li a {
+    color: #525252;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.conten_comm.three {
+    background: #fafaeb;
+    padding: 20px;
+}
+
+.conten_comm.three span.boder-1 {
+    background: #db6e39;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.conten_comm.three span.color {
+    color: #db6e39;
+}
+
+.conten_comm.three .des p {
+    letter-spacing: 2px;
+}
+
+.conten_comm.three ul {
+    padding-left: 15px;
+}
+
+.conten_comm.three ul li a {
+    color: #000;
+}
+p.ut1 strong {
+    color: #db6e39;
+    font-size: 20px;
+}
+.slogan.t2 {
+    margin-bottom: 30px;
+}
+
+.conter_comme_three_bottom {
+    text-align: center;
+}
+
+.conter_comme_three_bottom .des_02 p {
+    color: #db6e39;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.slogan.t2 {
+    margin-bottom: 30px;
+}
+
+.conter_comme_three_bottom:before {
+    content: '';
+    background: url("w2commerceEP/balloon3.png") no-repeat;
+    position: absolute;
+    bottom: -49px;
+    left: 50%;
+    width: 61%;
+    background-size: contain;
+    height: 144px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.des_02 {
+    position: relative;
+    top: 37px;
+}
+
+.conten_traspfer {
+    overflow: auto;
+    background: #fafaeb;
+    padding: 20px;
+}
+
+.conten_traspfer .traspfer_left {
+    width: 70%;
+    float: left;
+    margin-right: 30px;
+}
+
+.conten_traspfer .traspfer_right {
+    width: 27%;
+    float: left;
+}
+
+.w2_transpfer {}
+
+.traspfer_left h3 {
+    margin-top: 0;
+    border-left: 3px solid #db6e39;
+    padding: 10px 0px 5px 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.conten_traspfer {}
+
+.conten_traspfer .info {
+    padding: 0 30px;
+    border-top: 1px solid #d2d2d2;
+    padding-top: 20px;
+}
+
+.conten_traspfer .info ul li a {
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.traspfer_right h2 {
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 700;
+    background: #db6e39;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 5px;
+}
+
+.img_right img {
+    width: 100%;
+}
+.conten_traspfer {
+    overflow: auto;
+    background: #fafaeb;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.w2_growth {
+    text-align: center;
+}
+
+.w2_growth img {
+    width: 600px;
+}
+
+.slogan_growth {
+    margin-bottom: 50px;
+}
+
+.slogan_growth p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #5d5d5d;
+}
+
+.pore_growth {
+    margin-top: 40px;
+    
+}
+
+.pore_growth p {
+    margin-bottom: 3px;
+    color: #29557c;
+    font-size: 14px;
+    font-weight: 700;
+}
+.link_gro {
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+.link_gro a {
+    padding: 15px 60px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, #063969, #3e77bb);
+}
+
+.w2_onetn {
+    text-align: center;
+    color: #fff;
+}
+
+.w2_onetn img {
+    margin-bottom: 15px;
+}
+#footer {
+    background: #0c4072;
+    padding: 20px 0px 20px 0;
+}
+.w2_onetn img {
+    width: 270px;
+}
+.left, .right {
+    text-align: center;
+}
+.text_two:before{
+	content: '';
+    background: url(w2commerceEP/de.png) no-repeat;
+    position: absolute;
+    bottom: 7px;
+    left: 50%;
+    width: 45px;
+    background-size: contain;
+    height: 126px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.conten_w2:before{
+	content: '';
+    background: url(w2commerceEP/dee.png) no-repeat;
+    position: absolute;
+    bottom: 0px;
+    right: -54px;
+    width: 45px;
+    background-size: contain;
+    height: 92px;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+div#header {
+    background: #054b8d;
+}
+
+.mighty-slider .image img {
+    width: 100%;
+    height: 380px;
+}
