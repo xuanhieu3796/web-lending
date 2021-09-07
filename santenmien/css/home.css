@@ -236,7 +236,7 @@ dl, ol, ul {
 }
 
 /*domain*/
-.box-domain, .session-details-domain-names .item-details-domain-names {
+.box-domain, .session-details-domain-names .item-details-domain-names, .item-buy-domain-name {
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
     border-radius: 10px;
     overflow: hidden;
@@ -424,4 +424,70 @@ dl, ol, ul {
 } 
 .form-control:focus{
   box-shadow: none;
+}
+
+
+/* bantenmien */
+.title-buy-domain-name {
+    background: #038ffe;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title-buy-domain-name h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.title-buy-domain-name p {
+    max-width: 92%;
+    margin:  0 auto;
+    font-size: 14px;
+}
+.info-buy-domain-name {
+    padding: 40px 50px;
+}
+
+.buy-top-radio {clear: both;display: table;margin-bottom: 15px;}
+
+.buy-top-radio .form-check {
+    float: left;
+    margin-right: 40px;
+}
+
+.buy-domain-name-input label {
+    color: #002f8a;
+    font-weight: 500;
+}
+
+.buy-domain-name-input .form-group {
+    margin-bottom: 25px;
+}
+
+.buy-domain-name-input .form-group input {
+    height: 42px;
+}
+.buy-domain-name-input button.btn.btn-submit {
+    height: 42px;
+    background: #038ffe;
+    color: #fff;
+    font-weight: 500;
+    padding: 0 30px;
+    display: table;
+    margin: 0 auto;
+}
+.buy-domain-name-input .form-group .price {
+    display: flex;
+    align-items: center;
+}
+
+.option-buy-domain select {
+    height: 42px;
+}
+.buy-domain-name-input .form-group .price span {
+    padding: 0 10px;
+}
+.buy-domain-name-input p.note {
+    color: #038ffe;
 }

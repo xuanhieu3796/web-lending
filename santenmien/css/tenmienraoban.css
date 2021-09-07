@@ -26,14 +26,15 @@
     padding: 0 5px;
 }
 .input-search-domain .form-group select {
-    width: 100%;
     height: 56px;
+}
+.form-group select {
+    width: 100%;
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: .25rem;
     color: #495057;
 }
-
 .input-search-domain .form-group input {
     height: 56px;
 }
