@@ -236,13 +236,14 @@ dl, ol, ul {
 }
 
 /*domain*/
-.box-domain {
+.box-domain, .session-details-domain-names .item-details-domain-names {
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
     border-radius: 10px;
     overflow: hidden;
+    background: #fff;
 }
 
-.box-domain .title-domain {
+.box-domain .title-domain, .title-item-details-domain-names {
     height: 105px;
     line-height: 105px;
     text-align: center;
@@ -358,6 +359,33 @@ dl, ol, ul {
     background: #fff;
 }
 
+
+/*qa*/
+.session-04 {
+    background: url(img/banner2.png) 0% 0% / cover no-repeat;
+    padding: 50px 0px;
+}
+.title-left-faq {
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(0, 47, 138);
+    line-height: 60px;
+}
+.item-accordion-faq .title-item-faq {
+    margin-bottom: 15px;
+    background: aliceblue;
+    border-radius: 6px;
+}
+.item-accordion-faq .title-item-faq button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: rgb(0, 47, 138);
+    font-weight: 500;
+    padding: 10px 15px;
+    outline: none;
+}
+
 /*footer*/
 #footer {
     background: #fff;
@@ -379,4 +407,21 @@ dl, ol, ul {
 
 .item-footer>ul>li:first-child {
     padding-top: 0;
+}
+.fanpage-footer .item-fanpage>ul {
+    display: flex;
+}
+
+.fanpage-footer .item-fanpage>ul>li {
+    list-style: none;
+    margin-right: 15px;
+}
+.logo-footer img {
+    height: 40px;
+}
+.logo-footer {
+    margin-bottom: 10px;
+} 
+.form-control:focus{
+  box-shadow: none;
 }

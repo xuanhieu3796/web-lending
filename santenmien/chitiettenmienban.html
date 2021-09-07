@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sàn tên miền</title>
+	<title>Bán tên miền</title>
 	<meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +12,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/tenmienraoban.css">
+	<link rel="stylesheet" type="text/css" href="css/bantenmien.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -117,317 +119,76 @@
 	</div>
 
 	<div id="main">
-		<div class="session-01">
+		<div class="sell-domain-names pt-50 pb-50">
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-xs-12">
-						<div class="title-search">
-							Nhập tên miền cần tìm kiếm
-						</div>
-						<div class="search-input">
-							<form>
-								<div class="form-group">
-								    <input type="text" class="form-control" placeholder="Nhập tên miền cần tìm kiếm">
+				<div class="iten-sell-domain-names">
+					<div class="title-sell-domain-names">
+						<h1>
+							ĐĂNG BÁN TÊN MIỀN
+						</h1>
+						<p>
+							Nếu Quý khách gặp khó khăn khi phải trỏ bản ghi nhiều tên miền, vui lòng gửi danh sách tên miền về địa chỉ  santenmien@inet.vn để chúng tôi hỗ trợ đăng tên miền.
+						</p>
+					</div>
+					<div class="info-sell-domain-names">
+						<form>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="form-group">
+										<label>Tên miền muốn bán</label>
+										<input type="text" class="form-control" id=""  placeholder="Tên miền đăng bán">
+									</div>
 								</div>
-								<button type="submit" class="btn btn-primary">Tìm kiếm</button>
-							</form>
-						</div>
-						<div class="title-com-vn">
-							.Com  /  .Vn  /  .NET  /  .Org
-						</div>
+								<div class="col-sm-2">
+									<div class="form-group ">
+	                                    <label>Thuộc lĩnh vực</label>
+	                                    <div>
+	                                        <select name="">
+	                                        <option value="Tất cả">Tất cả</option>
+	                                        <option value="Bất động sản">Bất động sản</option>
+	                                        <option value="Công nghệ">Công nghệ</option>
+	                                    </select>
+	                                    </div>
+	                                </div>
+								</div>
+								<div class="col-sm-2">
+									<div class="form-group">
+										<label>Giá khởi điểm</label>
+										<input type="email" class="form-control" id=""  placeholder="0">
+									</div>
+								</div>
+								<div class="col-sm-2">
+									<div class="form-group">
+										<label>Giá mua ngay</label>
+										<input type="text" class="form-control" id=""  placeholder="1.000.000">
+									</div>
+								</div>
+								<div class="col-sm-2">
+									<div class="btn-add">
+										<a href="">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+											  <g id="Group_4892" data-name="Group 4892" transform="translate(-1509 -379)">
+											    <g id="Group_4889" data-name="Group 4889" transform="translate(1.683 1.683)">
+											      <circle id="Ellipse_12" data-name="Ellipse 12" cx="12" cy="12" r="12" transform="translate(1507.317 377.317)" fill="#d4e3ff"/>
+											      <path id="Union_2" data-name="Union 2" d="M4.636,10.636V7.364H1.363a1.363,1.363,0,1,1,0-2.727H4.636V1.363a1.364,1.364,0,0,1,2.728,0V4.637h3.273a1.363,1.363,0,0,1,0,2.727H7.364v3.272a1.364,1.364,0,1,1-2.728,0Z" transform="translate(1513.317 383.317)" fill="#002f8a"/>
+											    </g>
+											  </g>
+											</svg>
+
+										</a>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="btn-sell-domain-names">Đăng tên miền</button>
+						</form>
+
+
 					</div>
-					<div class="col-sm-4 col-xs-12">
-						<div class="img-right">
-							<img src="images/banner-right.png" alt="banner">
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</div>
-
-		<div class="session-02 pt-50 pb-50">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 col-xs-12">
-						<div class="box-domain">
-							<h3 class="title-domain">
-								Tên miền đang rao bán
-							</h3>
-							<div class="info-domain">
-								<ul>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-								</ul>
-							</div>
-							<div class="btn-seemore">
-								<a href="">
-									Xem thêm
-									<svg xmlns="http://www.w3.org/2000/svg" width="11.805" height="7.873" viewBox="0 0 11.805 7.873">
-									  <path id="Icon_ionic-ios-arrow-round-back" data-name="Icon ionic-ios-arrow-round-back" d="M12.159,11.4a.536.536,0,0,1,0,.754l-2.489,2.5h9.484a.533.533,0,0,1,0,1.066H9.674l2.493,2.5a.54.54,0,0,1,0,.754.531.531,0,0,1-.75,0l-3.379-3.4h0a.6.6,0,0,1-.111-.168.509.509,0,0,1-.041-.205.534.534,0,0,1,.152-.373l3.379-3.4A.522.522,0,0,1,12.159,11.4Z" transform="translate(19.687 19.125) rotate(180)" fill="#fff"/>
-									</svg>
-								</a>
-							</div>
-
-						</div>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<div class="box-domain">
-							<h3 class="title-domain">
-								Cho thuê tên miền và Website
-							</h3>
-							<div class="info-domain">
-								<ul>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-								</ul>
-							</div>
-							<div class="btn-seemore">
-								<a href="">
-									Xem thêm
-									<svg xmlns="http://www.w3.org/2000/svg" width="11.805" height="7.873" viewBox="0 0 11.805 7.873">
-									  <path id="Icon_ionic-ios-arrow-round-back" data-name="Icon ionic-ios-arrow-round-back" d="M12.159,11.4a.536.536,0,0,1,0,.754l-2.489,2.5h9.484a.533.533,0,0,1,0,1.066H9.674l2.493,2.5a.54.54,0,0,1,0,.754.531.531,0,0,1-.75,0l-3.379-3.4h0a.6.6,0,0,1-.111-.168.509.509,0,0,1-.041-.205.534.534,0,0,1,.152-.373l3.379-3.4A.522.522,0,0,1,12.159,11.4Z" transform="translate(19.687 19.125) rotate(180)" fill="#fff"/>
-									</svg>
-								</a>
-							</div>
-
-						</div>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<div class="box-domain">
-							<h3 class="title-domain">
-								Tên miền đang cần mua
-							</h3>
-							<div class="info-domain">
-								<ul>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-									<li>
-										<span>
-											master-bo.com
-										</span>
-										<span>
-											1,000,000 ₫
-										</span>
-									</li>
-								</ul>
-							</div>
-							<div class="btn-seemore">
-								<a href="">
-									Xem thêm
-									<svg xmlns="http://www.w3.org/2000/svg" width="11.805" height="7.873" viewBox="0 0 11.805 7.873">
-									  <path id="Icon_ionic-ios-arrow-round-back" data-name="Icon ionic-ios-arrow-round-back" d="M12.159,11.4a.536.536,0,0,1,0,.754l-2.489,2.5h9.484a.533.533,0,0,1,0,1.066H9.674l2.493,2.5a.54.54,0,0,1,0,.754.531.531,0,0,1-.75,0l-3.379-3.4h0a.6.6,0,0,1-.111-.168.509.509,0,0,1-.041-.205.534.534,0,0,1,.152-.373l3.379-3.4A.522.522,0,0,1,12.159,11.4Z" transform="translate(19.687 19.125) rotate(180)" fill="#fff"/>
-									</svg>
-								</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
+		
 		<div class="session-03 pb-50">
 			<div class="container">
 				<div class="why">

@@ -1,0 +1,8 @@
+.input-search-domain .row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.input-search-domain .row>div {
+    padding: 0 5px;
+}
