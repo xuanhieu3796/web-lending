@@ -2,6 +2,13 @@ body{
   font-family: 'Roboto', sans-serif;
   background: #F3F3F3;
 }
+img{
+  max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
 .pb-50{
   padding-bottom: 50px
 }
@@ -236,7 +243,7 @@ dl, ol, ul {
 }
 
 /*domain*/
-.box-domain, .session-details-domain-names .item-details-domain-names, .item-buy-domain-name {
+.box-domain, .session-details-domain-names .item-details-domain-names, .item-buy-domain-name, .information-user {
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
     border-radius: 10px;
     overflow: hidden;
@@ -428,7 +435,7 @@ dl, ol, ul {
 
 
 /* bantenmien */
-.title-buy-domain-name {
+.title-buy-domain-name, .information-user .title-information {
     background: #038ffe;
     color: #fff;
     padding: 20px 0;
@@ -490,4 +497,49 @@ dl, ol, ul {
 }
 .buy-domain-name-input p.note {
     color: #038ffe;
+}
+
+
+.table {
+    margin-bottom: 0;
+}
+.table thead th {
+    border: 0;
+}
+.domain-show:before {
+    content: '\f0de';
+    position: absolute;
+    top: -14px;
+    left: 46px;
+    font-family: 'FontAwesome';
+    height: 10px;
+    font-size: 21px;
+    color: #edf5fb;
+}
+tbody {
+    position: relative;
+}
+.dropdown-menu.domain-show {
+    width: 97.5%;
+    max-width: 100%;
+    background: #edf5fb;
+    border-color: #edf5fb;
+    padding: 0px 15px;
+    top: 12px !important;
+}
+
+td.dropdown.show {
+    position: static;
+}
+
+.dropdown-menu.domain-show p {
+    margin-bottom: 0;
+    padding: 13px 0;
+    font-weight: 500;
+    color: #002f8a;
+    border-bottom: 1px dashed #002f8a;
+}
+
+.dropdown-menu.domain-show p:last-child {
+    border-bottom: 0;
 }
