@@ -379,8 +379,6 @@ dl, ol, ul {
     line-height: 60px;
 }
 .item-accordion-faq .title-item-faq {
-    margin-bottom: 15px;
-    background: aliceblue;
     border-radius: 6px;
 }
 .item-accordion-faq .title-item-faq button {
@@ -542,4 +540,139 @@ td.dropdown.show {
 
 .dropdown-menu.domain-show p:last-child {
     border-bottom: 0;
+}
+.item-accordion-faq button.btn.btn-link {
+    background: none;
+    padding: 0;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.item-accordion-faq button.btn.btn-link.collapsed {
+    background: #fff;
+    padding: 10px 15px;
+    color: #002f8a;
+    /* margin-bottom: 20px; */
+    font-size: 15px;
+    border: 0;
+}
+.item-accordion-faq button.btn.btn-link.collapsed:focus {
+    box-shadow: none;
+    border: 0;
+}
+
+.btn:hover {
+    text-decoration: none;
+    border: 0;
+}
+.item-accordion-faq button.btn.btn-link:focus {
+    border: 0;
+    text-decoration: none;
+}
+
+.item-accordion-faq .show-tab-faq.collapse.show {
+    /* margin-bottom: 20px; */
+}
+
+.item-accordion-faq .show-tab-faq.collapse.show .faq-body {
+    color: #fff;
+}
+.btn.focus, .btn:focus {
+    box-shadow: none;
+    text-decoration: none;
+}
+.btn:focus-visible {
+    outline: none;
+    border: 0;
+}
+
+.btn:focus-visible {
+    border: 0 !important;
+    outline: none;
+}
+.faq-body {
+    color: #fff;
+}
+
+.btn {
+    border: 0;
+}
+.item-accordion-faq button.btn.btn-link.collapsed:before {
+    content: "\f067" !important;
+    margin-right: 0px;
+    top: 2px;
+}
+
+button.btn.btn-link:before {
+    content: "\f068";
+    font-family: "FontAwesome";
+    font-weight: normal;
+    float: right;
+    position: relative;
+    right: 0;
+    font-size: 14px;
+    margin-right: 15px;
+    top:5px;
+    color: #002f8a;
+    background: #fff;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 21px;
+}
+.item-accordion-faq {
+    display: block;
+    margin-bottom: 20px;
+}
+@media (max-width: 576px){
+    .session-01 .title-search {
+        font-size: 20px;
+    }
+
+    .session-01 {
+        padding: 30px 0px;
+    }
+
+    .session-01 .img-right {
+        display: none;
+    }
+
+    .box-domain {
+        margin-bottom: 30px;
+    }
+
+    .title-all h3 {
+        font-size: 23px;
+    }
+
+    .title-all p {
+        font-size: 15px;
+    }
+
+    .info-why .item-why {
+        background: #fff;
+        margin-bottom: 30px;
+    }
+
+    .title-left-faq {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .img_left {
+        margin-bottom: 20px;
+    }
+    .item-footer .title-footer {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+    .item-footer p{
+        margin-bottom: 10px
+    }
 }
