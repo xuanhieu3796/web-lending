@@ -107,7 +107,7 @@
     margin: 10px 0;
 }
 
-.domain-names-are-for-sale , .iten-sell-domain-names {
+.domain-names-are-for-sale, .iten-sell-domain-names, .table-sell-domain-names {
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -288,4 +288,32 @@
 
 .session-career-domain>.container>.row>div {
     padding: 0 10px;
+}
+.table-sell-domain-names .table thead {
+    background: #038ffe;
+}
+
+.table-sell-domain-names .table thead>tr>th {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px 5px;
+}
+
+.table-sell-domain-names .table tbody tr>td {
+    font-size: 12px;
+}
+.table-sell-domain-names .table tbody tr>td>a {
+    background: #D6EDFF;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #002f8a;
+}
+.table-sell-domain-names {
+    margin-bottom: 25px;
+}
+.bottom-sell-domain-names p {
+    font-size: 14px;
+    color: #001f5a;
 }

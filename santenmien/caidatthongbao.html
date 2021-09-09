@@ -23,14 +23,14 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3 col-xs-6">
+					<div class="col-sm-3 col-12">
 						<div class="logo">
-							<a href="/">
+							<a href="Home.html">
 								<img src="images/Santenmien.png" alt="Logo">
 							</a> 
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-6">
+					<div class="col-sm-9 col-12">
 						<div class="menu-top">
 							<ul>
 								<li>
@@ -43,7 +43,7 @@
 						<div class="btn-login">
 							<ul>
 								<li class="register">
-									<a href="#">
+									<a href="dangky.html">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 										  <g id="vuesax_linear_message-edit" data-name="vuesax/linear/message-edit" transform="translate(-236 -378)">
 										    <g id="message-edit">
@@ -60,7 +60,7 @@
 									</a>
 								</li>
 								<li class="login">
-									<a href="#">
+									<a href="dangnhap.html">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 										  <g id="vuesax_linear_user-tag" data-name="vuesax/linear/user-tag" transform="translate(-556 -188)">
 										    <g id="user-tag">
@@ -85,22 +85,26 @@
 		<div class="header-menu">
 			<div class="container">
 				<div class="vmenu_link">
-				    <nav class="nav-bar">
+				    <nav  id="click_show" class="nav-bar">
 				        <div class="toggle-menu">
 				            <div class="line line1"></div>
 				            <div class="line line2"></div>
 				            <div class="line line3"></div>
 				        </div>
+				        
 				        <div class="target_show">
+				        	<button class="close_show">
+						        x
+						    </button>
 				            <ul class="nav-list">
 				                 <li class="nav-list-item">
-				                  <a href="#" class="nav-link">Trang chủ</a>
+				                  <a href="Home.html" class="nav-link">Trang chủ</a>
 				              	</li>
 				                <li class="nav-list-item">
-				                  <a href="" class="nav-link">Tên miền đang bán</a>
+				                  <a href="tenmienraoban.html" class="nav-link">Tên miền đang bán</a>
 				              	</li>
 				                <li class="nav-list-item">
-				                  <a href="" class="nav-link">Tên miền muốn mua</a>
+				                  <a href="muatenmien.html" class="nav-link">Tên miền muốn mua</a>
 				              	</li>
 				                <li class="nav-list-item">
 				                    <a href="" class="nav-link">Cho thuê tên miền Website</a>
@@ -120,12 +124,13 @@
 		</div>
 	</div>
 
+
 	<div id="main">
 
 		<div class="session-user pt-50 pb-50">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3 ">
+					<div class="col-lg-3 col-sm-12 col-12">
 						<div class="left-user">
 							<div class="img-name">
 									<div class="img">
@@ -150,7 +155,7 @@
 							<div class="item-user-left">
 								<ul>
 									<li>
-										<a href="">
+										<a href="thongtintaikhoan.html">
 											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 											  <g id="vuesax_linear_user-tag" data-name="vuesax/linear/user-tag" transform="translate(-556 -188)">
 											    <g id="user-tag">
@@ -167,7 +172,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="">
+										<a href="tenmienbandangban.html">
 											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 											  <g id="money-send" transform="translate(-428 -444)">
 											    <g id="Group">
@@ -235,8 +240,8 @@
 											Theo dõi tên miền mới nhất
 										</a>
 									</li>
-									<li>
-										<a href="">
+									<li class="active">
+										<a href="caidatthongbao.html">
 											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 											  <g id="vuesax_linear_setting-3" data-name="vuesax/linear/setting-3" transform="translate(-364 -188)">
 											    <g id="setting-3">
@@ -255,8 +260,8 @@
 											Cài đặt thông báo
 										</a>
 									</li>
-									<li>
-										<a href="">
+									<li >
+										<a href="napquy.html">
 											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 											  <g id="vuesax_linear_card-pos" data-name="vuesax/linear/card-pos" transform="translate(-428 -508)">
 											    <g id="card-pos">
@@ -280,7 +285,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-9 ">
+					<div class="col-lg-9 col-sm-12 col-12">
 						<div class="information-user notification-settings">
 							<div class="title-information">
 								<h3>
@@ -413,10 +418,23 @@
 		                    <div class="item-accordion-faq">
 		                        <div class="title-item-faq" id="box-qa-Three">
 		                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-		                                Tôi có thể liên lạc hay trực tiếp nói chuyện với Người bán (mua) không
+		                                Tại sao tôi không thăng phiên đặt giá, khi tôi đặt giá cao nhất
 		                            </button>
 		                        </div>
 		                        <div id="collapseThree" class="show-tab-faq collapse" aria-labelledby="box-qa-Three" data-parent="#accordion">
+		                            <div class="faq-body">
+		                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+		                                explicabo. Nemo enim ipsam voluptatem quia…
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="item-accordion-faq">
+		                        <div class="title-item-faq" id="box-qa-four">
+		                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+		                                Tôi có thể liên lạc hay trực tiếp nói chuyện với Người bán (mua) không
+		                            </button>
+		                        </div>
+		                        <div id="collapsefour" class="show-tab-faq collapse" aria-labelledby="box-qa-four" data-parent="#accordion">
 		                            <div class="faq-body">
 		                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
 		                                explicabo. Nemo enim ipsam voluptatem quia…
@@ -558,21 +576,12 @@
 				</div>
 			</div>
 		</div>
-
+		<div class="footer-bottom">
+			<div class="container">
+				Copyright © 2018 Santenmien. All rights reserved.
+			</div>
+		</div>
 	</div>
 </body>
-<script type="text/javascript">
-	$(document).ready(function () {
-	    const toggleButton = document.querySelector('.toggle-menu');
-	    const navBar = document.querySelector('.nav-bar');
-	    toggleButton.addEventListener('click', () => {
-	        navBar.classList.toggle('toggle');
-	    });
-	});
-	$(document).ready(function(){
-		$('#clickbtn').on('click',function () {
-        	$('#clickbtn').toggleClass('show');
-    	});
-	});
-</script>
+<script src="js/custom.js"></script>
 </html>

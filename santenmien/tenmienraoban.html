@@ -21,14 +21,14 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3 col-xs-6">
+					<div class="col-sm-3 col-12">
 						<div class="logo">
-							<a href="/">
+							<a href="Home.html">
 								<img src="images/Santenmien.png" alt="Logo">
 							</a> 
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-6">
+					<div class="col-sm-9 col-12">
 						<div class="menu-top">
 							<ul>
 								<li>
@@ -41,7 +41,7 @@
 						<div class="btn-login">
 							<ul>
 								<li class="register">
-									<a href="#">
+									<a href="dangky.html">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 										  <g id="vuesax_linear_message-edit" data-name="vuesax/linear/message-edit" transform="translate(-236 -378)">
 										    <g id="message-edit">
@@ -58,7 +58,7 @@
 									</a>
 								</li>
 								<li class="login">
-									<a href="#">
+									<a href="dangnhap.html">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 										  <g id="vuesax_linear_user-tag" data-name="vuesax/linear/user-tag" transform="translate(-556 -188)">
 										    <g id="user-tag">
@@ -83,22 +83,26 @@
 		<div class="header-menu">
 			<div class="container">
 				<div class="vmenu_link">
-				    <nav class="nav-bar">
+				    <nav  id="click_show" class="nav-bar">
 				        <div class="toggle-menu">
 				            <div class="line line1"></div>
 				            <div class="line line2"></div>
 				            <div class="line line3"></div>
 				        </div>
+				        
 				        <div class="target_show">
+				        	<button class="close_show">
+						        x
+						    </button>
 				            <ul class="nav-list">
 				                 <li class="nav-list-item">
-				                  <a href="#" class="nav-link">Trang chủ</a>
+				                  <a href="Home.html" class="nav-link">Trang chủ</a>
 				              	</li>
 				                <li class="nav-list-item">
-				                  <a href="" class="nav-link">Tên miền đang bán</a>
+				                  <a href="tenmienraoban.html" class="nav-link">Tên miền đang bán</a>
 				              	</li>
 				                <li class="nav-list-item">
-				                  <a href="" class="nav-link">Tên miền muốn mua</a>
+				                  <a href="muatenmien.html" class="nav-link">Tên miền muốn mua</a>
 				              	</li>
 				                <li class="nav-list-item">
 				                    <a href="" class="nav-link">Cho thuê tên miền Website</a>
@@ -118,6 +122,7 @@
 		</div>
 	</div>
 
+
 	<div id="main">
 		<div class="session-01 search-domain">
 			<div class="container">
@@ -133,12 +138,12 @@
 				<div class="input-search-domain">
 					<form>
 						<div class="row">
-							<div class="col-sm-4">
+							<div class="col-lg-4 col-sm-6 col-12">
 								<div class="form-group">
 									<input type="text" class="form-control" id="" placeholder="Nhập tên miền cần tìm kiếm">
 								</div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-lg-2 col-sm-6 col-12">
 								<div class="form-group">
 	                                <select name="career" >
 		                                <option value="Bất động sản">Ngành nghề</option>
@@ -147,7 +152,7 @@
 		                            </select>
 		                        </div>
 							</div>
-							<div class="col-sm-1">
+							<div class="col-lg-1 col-sm-3 col-12">
 								<div class="form-group">
 	                                <select name="com" >
 	                                	<option value="Bất động sản">.Com</option>
@@ -156,7 +161,7 @@
 		                            </select>
 		                        </div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-lg-2 col-sm-7 col-12">
 								<div class="form-group">
 	                                <select name="career" >
 		                                <option value="Bất động sản">Độ dài tên miền</option>
@@ -165,7 +170,7 @@
 		                            </select>
 		                        </div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-lg-2 col-sm-2 col-12">
 								<button type="submit" class="btn btn-submit">Tìm kiếm</button>
 							</div>
 						</div>
@@ -177,7 +182,7 @@
 		<div class="session-career-domain pt-50 pb-50">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3 col-xs-12">
+					<div class="col-lg-3 col-sm-12 col-12">
 						<div class="item-career-left">
 							<div class="title-career">
 								Ngành nghề
@@ -250,7 +255,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-9 col-xs-12">
+					<div class="col-lg-9 col-sm-12 col-12">
 						<div class="domain-names-are-for-sale">
 							<div class="item-top-domain-names">
 								<div class="row">
@@ -290,14 +295,34 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												master-bo.com
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													master-bo.com
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
 											</td>
 											<td>1</td>
 											<td>1</td>
@@ -307,19 +332,41 @@
 											<td>1,000,000 ₫</td>
 											<td>
 												<div class="btn-link btn-view">
-													Xem chi tiết
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
 												</div>
 											</td>
 										</tr>
 										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												master-bo.com
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													thebeauty.vn
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
 											</td>
 											<td>1</td>
 											<td>1</td>
@@ -329,89 +376,42 @@
 											<td>1,000,000 ₫</td>
 											<td>
 												<div class="btn-link btn-view">
-													Xem chi tiết
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												thebeauty.vn
-											</td>
-											<td>1</td>
-											<td>1</td>
-											<td>16</td>
-											<td>05/08/2020</td>
-											<td>1,000,000 ₫</td>
-											<td>1,000,000 ₫</td>
-											<td>
-												<div class="btn-link btn-view">
-													Xem chi tiết
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												diendandoanhnhan.net
-											</td>
-											<td>1</td>
-											<td>1</td>
-											<td>16</td>
-											<td>05/08/2020</td>
-											<td>1,000,000 ₫</td>
-											<td>1,000,000 ₫</td>
-											<td>
-												<div class="btn-link btn-view">
-													Xem chi tiết
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												xuatbansach.net
-											</td>
-											<td>1</td>
-											<td>1</td>
-											<td>16</td>
-											<td>05/08/2020</td>
-											<td>1,000,000 ₫</td>
-											<td>1,000,000 ₫</td>
-											<td>
-												<div class="btn-link btn-view">
-													Xem chi tiết
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
 												</div>
 											</td>
 										</tr>
 
 										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												dichvuhoadondientu.vn
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													diendandoanhnhan.net
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
 											</td>
 											<td>1</td>
 											<td>1</td>
@@ -421,20 +421,42 @@
 											<td>1,000,000 ₫</td>
 											<td>
 												<div class="btn-link btn-view">
-													Xem chi tiết
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
 												</div>
 											</td>
 										</tr>
 
 										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												vietshowbiz.vn
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													 xuatbansach.net
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
 											</td>
 											<td>1</td>
 											<td>1</td>
@@ -444,20 +466,42 @@
 											<td>1,000,000 ₫</td>
 											<td>
 												<div class="btn-link btn-view">
-													Xem chi tiết
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
 												</div>
 											</td>
 										</tr>
 
 										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												noidung.net
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													 dichvuhoadondientu.vn
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
 											</td>
 											<td>1</td>
 											<td>1</td>
@@ -467,19 +511,176 @@
 											<td>1,000,000 ₫</td>
 											<td>
 												<div class="btn-link btn-view">
-													Xem chi tiết
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													noidung.net
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
+											</td>
+											<td>1</td>
+											<td>1</td>
+											<td>16</td>
+											<td>05/08/2020</td>
+											<td>1,000,000 ₫</td>
+											<td>1,000,000 ₫</td>
+											<td>
+												<div class="btn-link btn-view">
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													chuabachtuong.com
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
+											</td>
+											<td>1</td>
+											<td>1</td>
+											<td>16</td>
+											<td>05/08/2020</td>
+											<td>1,000,000 ₫</td>
+											<td>1,000,000 ₫</td>
+											<td>
+												<div class="btn-link btn-view">
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													xprinter.com.vn
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
+											</td>
+											<td>1</td>
+											<td>1</td>
+											<td>16</td>
+											<td>05/08/2020</td>
+											<td>1,000,000 ₫</td>
+											<td>1,000,000 ₫</td>
+											<td>
+												<div class="btn-link btn-view">
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
 												</div>
 											</td>
 										</tr>
 										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												chuabachtuong.com
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													master-bo.com
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
 											</td>
 											<td>1</td>
 											<td>1</td>
@@ -489,19 +690,41 @@
 											<td>1,000,000 ₫</td>
 											<td>
 												<div class="btn-link btn-view">
-													Xem chi tiết
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
 												</div>
 											</td>
 										</tr>
 										<tr>
-											<td>
-												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
-												  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
-												    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
-												    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
-												  </g>
-												</svg>
-												xprinter.com.vn
+											<td class="dropdown">
+										    	<a href="javascript://"  data-toggle="dropdown">
+										    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="21" viewBox="0 0 16 21">
+													  <g id="Group_4866" data-name="Group 4866" transform="translate(-378 -632)">
+													    <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(378 633)" fill="#d4e3ff"/>
+													    <text id="_" data-name="!" transform="translate(386 632)" fill="#002f8a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-2.145" y="17">!</tspan></text>
+													  </g>
+													</svg>
+													master-bo.com
+										    	</a>
+												
+											    <div class="dropdown-menu domain-show">
+													<p>
+														<strong>Nhà đăng ký: </strong>ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+													</p>
+													<p>
+														<strong>Ngày hết hạn: </strong>23/01/2022
+													</p>
+													<p>
+														<strong>Danh mục:</strong>
+													</p>
+													<p>
+														<strong>Mô tả:</strong>
+													</p>
+													<p>
+														<strong>Tên người bán:</strong> To Xuan Hieu
+													</p>
+											    </div>
 											</td>
 											<td>1</td>
 											<td>1</td>
@@ -511,7 +734,9 @@
 											<td>1,000,000 ₫</td>
 											<td>
 												<div class="btn-link btn-view">
-													Xem chi tiết
+													<a href="chitiettenmienban.html">
+														Xem chi tiết
+													</a>
 												</div>
 											</td>
 										</tr>
@@ -566,7 +791,7 @@
 					</div>
 					<div class="info-why">
 						<div class="row">
-							<div class="col-sm-3 col-xs-6">
+							<div class="col-lg-3 col-sm-6 col-12">
 								<div class="item-why">
 									<div class="icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="47.628" height="46" viewBox="0 0 47.628 46">
@@ -591,7 +816,7 @@
 									</p>
 								</div>
 							</div>
-							<div class="col-sm-3 col-xs-6">
+							<div class="col-lg-3 col-sm-6  col-12">
 								<div class="item-why">
 									<div class="icon">
 										<svg id="search" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
@@ -608,7 +833,7 @@
 									</p>
 								</div>
 							</div>
-							<div class="col-sm-3 col-xs-6">
+							<div class="col-lg-3 col-sm-6 col-12">
 								<div class="item-why">
 									<div class="icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
@@ -628,7 +853,7 @@
 									</p>
 								</div>
 							</div>
-							<div class="col-sm-3 col-xs-6">
+							<div class="col-lg-3 col-sm-6 col-12">
 								<div class="item-why">
 									<div class="icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="46.256" height="41.813" viewBox="0 0 46.256 41.813">
@@ -656,6 +881,7 @@
 				</div>
 			</div>
 		</div>
+
 
 		<div class="session-04 pb-50">
 		    <div class="container">
@@ -703,10 +929,23 @@
 		                    <div class="item-accordion-faq">
 		                        <div class="title-item-faq" id="box-qa-Three">
 		                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-		                                Tôi có thể liên lạc hay trực tiếp nói chuyện với Người bán (mua) không
+		                                Tại sao tôi không thăng phiên đặt giá, khi tôi đặt giá cao nhất
 		                            </button>
 		                        </div>
 		                        <div id="collapseThree" class="show-tab-faq collapse" aria-labelledby="box-qa-Three" data-parent="#accordion">
+		                            <div class="faq-body">
+		                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+		                                explicabo. Nemo enim ipsam voluptatem quia…
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="item-accordion-faq">
+		                        <div class="title-item-faq" id="box-qa-four">
+		                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+		                                Tôi có thể liên lạc hay trực tiếp nói chuyện với Người bán (mua) không
+		                            </button>
+		                        </div>
+		                        <div id="collapsefour" class="show-tab-faq collapse" aria-labelledby="box-qa-four" data-parent="#accordion">
 		                            <div class="faq-body">
 		                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
 		                                explicabo. Nemo enim ipsam voluptatem quia…
@@ -848,16 +1087,12 @@
 				</div>
 			</div>
 		</div>
-
+		<div class="footer-bottom">
+			<div class="container">
+				Copyright © 2018 Santenmien. All rights reserved.
+			</div>
+		</div>
 	</div>
 </body>
-<script type="text/javascript">
-	$(document).ready(function () {
-	    const toggleButton = document.querySelector('.toggle-menu');
-	    const navBar = document.querySelector('.nav-bar');
-	    toggleButton.addEventListener('click', () => {
-	        navBar.classList.toggle('toggle');
-	    });
-	});
-</script>
+<script src="js/custom.js"></script>
 </html>

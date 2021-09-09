@@ -160,6 +160,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .information-user.buy-domain-user .title-information h3 {
@@ -263,7 +264,7 @@ button.btn-dropdown-user svg {
 .information-user .info-information tbody tr>td:nth-child(4) {
     color: red;
     font-weight: 600;
-}	
+}   
 .information-user .info-information tbody tr td>a {
     color: #000;
 }

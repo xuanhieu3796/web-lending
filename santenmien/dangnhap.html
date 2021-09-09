@@ -22,14 +22,14 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3 col-xs-6">
+					<div class="col-sm-3 col-12">
 						<div class="logo">
-							<a href="/">
+							<a href="Home.html">
 								<img src="images/Santenmien.png" alt="Logo">
 							</a> 
 						</div>
 					</div>
-					<div class="col-sm-9 col-xs-6">
+					<div class="col-sm-9 col-12">
 						<div class="menu-top">
 							<ul>
 								<li>
@@ -42,7 +42,7 @@
 						<div class="btn-login">
 							<ul>
 								<li class="register">
-									<a href="#">
+									<a href="dangky.html">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 										  <g id="vuesax_linear_message-edit" data-name="vuesax/linear/message-edit" transform="translate(-236 -378)">
 										    <g id="message-edit">
@@ -59,7 +59,7 @@
 									</a>
 								</li>
 								<li class="login">
-									<a href="#">
+									<a href="dangnhap.html">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 										  <g id="vuesax_linear_user-tag" data-name="vuesax/linear/user-tag" transform="translate(-556 -188)">
 										    <g id="user-tag">
@@ -84,22 +84,26 @@
 		<div class="header-menu">
 			<div class="container">
 				<div class="vmenu_link">
-				    <nav class="nav-bar">
+				    <nav  id="click_show" class="nav-bar">
 				        <div class="toggle-menu">
 				            <div class="line line1"></div>
 				            <div class="line line2"></div>
 				            <div class="line line3"></div>
 				        </div>
+				        
 				        <div class="target_show">
+				        	<button class="close_show">
+						        x
+						    </button>
 				            <ul class="nav-list">
 				                 <li class="nav-list-item">
-				                  <a href="#" class="nav-link">Trang chủ</a>
+				                  <a href="Home.html" class="nav-link">Trang chủ</a>
 				              	</li>
 				                <li class="nav-list-item">
-				                  <a href="" class="nav-link">Tên miền đang bán</a>
+				                  <a href="tenmienraoban.html" class="nav-link">Tên miền đang bán</a>
 				              	</li>
 				                <li class="nav-list-item">
-				                  <a href="" class="nav-link">Tên miền muốn mua</a>
+				                  <a href="muatenmien.html" class="nav-link">Tên miền muốn mua</a>
 				              	</li>
 				                <li class="nav-list-item">
 				                    <a href="" class="nav-link">Cho thuê tên miền Website</a>
@@ -118,6 +122,7 @@
 			</div>
 		</div>
 	</div>
+
 
 	<div id="main">
 		<div class="container">
@@ -157,7 +162,7 @@
 	                </div>
 
 	                <p>
-	                	Bạn chưa có tài khoản để sử dụng dịch vụ của Nhanhoa? <a href="">Đăng ký ngay</a>
+	                	Bạn chưa có tài khoản để sử dụng dịch vụ của Nhanhoa? <a href="dangky.html">Đăng ký ngay</a>
 	                </p>
 				</div>
 			</div>
@@ -291,16 +296,12 @@
 				</div>
 			</div>
 		</div>
-
+		<div class="footer-bottom">
+			<div class="container">
+				Copyright © 2018 Santenmien. All rights reserved.
+			</div>
+		</div>
 	</div>
 </body>
-<script type="text/javascript">
-	$(document).ready(function () {
-	    const toggleButton = document.querySelector('.toggle-menu');
-	    const navBar = document.querySelector('.nav-bar');
-	    toggleButton.addEventListener('click', () => {
-	        navBar.classList.toggle('toggle');
-	    });
-	});
-</script>
+<script src="js/custom.js"></script>
 </html>
